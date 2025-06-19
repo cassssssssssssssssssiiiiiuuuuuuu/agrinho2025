@@ -104,25 +104,12 @@ width: 500px;}
 #sociais1 {margin-left: 32%;}
 #pasto1 {margin-left: 32%;}
 
-
-/* Estilos padrão desktops */
-body {
-  font-size: 18px;
-  padding: 40px;
+.column {
+  width: 100%;
 }
 
-/* Estilos padrão tablets */
-@media (max-width: 768px) {
-  body {
-    font-size: 16px;
-    padding: 20px;
-  }
-}
-
-/* Estilos padrão celulares */
-@media (max-width: 480px) {
-  body {
-    font-size: 14px;
-    padding: 10px;
+@media (min-width: 400px) {
+  .column {
+    width: 50%;
   }
 }
